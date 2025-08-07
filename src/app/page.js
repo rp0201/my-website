@@ -1,103 +1,60 @@
 import Image from "next/image";
+import HoverVideoDisplay from "../components/HoverVideoDisplay";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div>
+      <div className="flex justify-center py-[90px]">
+        <div className="flex flex-col gap-y-6 max-w-[560px] w-full">
+          <h1>Rithi Hem-Sokhan</h1>
+          <p>Hello—I’m a 19 year old from Pennsylvania currently majoring in Computer Science and Business at <HoverVideoDisplay videoSrc="/videos/lehighu.mp4">Lehigh University</HoverVideoDisplay>.</p>
+          <p>I’m an aspiring full-stack developer who has an emphasis on frontend design and development. I enjoy designing <HoverVideoDisplay videoSrc="/videos/gojoo.mp4">good looking</HoverVideoDisplay> experiences and building end-to-end.</p>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          <div className="flex flex-col gap-y-6">
+            <h2>Projects</h2>
+            <div className="flex flex-col gap-y-3">
+              <div className="flex flex-row gap-x-1.5 items-center">
+                <h3 className="text-[#666666]">Auxel - Proxy Tester Application</h3>
+                <a href="https://github/rp0201" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-x-1.5 items-center text-[#B2B2B2] hover:text-[#8C8C8C] hover:transition ease-in-out duration-100ms">
+                  August 2025
+                  <img src="/Frame.svg" width={16} height={16} alt="Auxel Github Repo"/>
+                </a>
+              </div>
+              <p>A fast, open-source proxy tester that checks thousands of residential & ISP proxies at once. Includes real-time status, speed metrics, filtering tools, and bulk actions for efficient proxy management.</p>
+              <ul className="flex gap-x-3">
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>React</li>
+                <li>Python</li>
+              </ul>
+            </div>
+          </div>
+          <div className="flex flex-col gap-y-3">
+            <h2>Find me here</h2>
+            <div className="flex flex-col gap-y-3">
+              <ul className="flex gap-x-3">
+                <a href="mailto:rsokhan@proton.me" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-x-1.5">
+                  <li>Email</li>
+                  <img src="/Frame.svg" width={16} height={16} alt="Email address"/>
+                </a>
+                <a href="https://www.linkedin.com/in/rithihs/" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-x-1.5">
+                  <li>LinkedIn</li>
+                  <img src="/Frame.svg" width={16} height={16} alt="LinkedIn"/>
+                </a>
+                <a href="https://github.com/rp0201" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-x-1.5">
+                  <li>Github</li>
+                  <img src="/Frame.svg" width={16} height={16} alt="LinkedIn"/>
+                </a>
+                <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-x-1.5">
+                  <li>Resume</li>
+                  <img src="/Frame.svg" width={16} height={16} alt="LinkedIn"/>
+                </a>
+
+              </ul>
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
     </div>
   );
 }
