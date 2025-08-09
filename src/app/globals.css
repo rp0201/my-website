@@ -6,10 +6,12 @@
 }
 
 p {
+  font-size: 14px;
   color: #8C8C8C;
 }
 
 li {
+  font-size: 14px;
   user-select: none;
   color: #B2B2B2;
 }
@@ -21,11 +23,29 @@ h1 {
 }
 
 h2 {
+  font-size: 14px;
   color: #666666;
   font-weight: 500;
 }
 
+h3 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+a {
+  font-size: 14px;
+  color: #B2B2B2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8C8C8C;
+  transition: ease-in-ount 0.1s;
+}
+
 span {
+  font-size: 14px;
   text-decoration: underline;
 }
 
