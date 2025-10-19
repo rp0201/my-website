@@ -7,15 +7,26 @@ export default function Home() {
       <div className="flex justify-center py-[90px]">
         <div className="flex flex-col gap-y-6 max-w-[560px] w-full">
           <h1>Rithi Hem-Sokhan</h1>
-          <p>Hello—I’m a 19 year old from Pennsylvania currently majoring in Computer Science and Business at <HoverVideoDisplay videoSrc="/videos/lehighu.mp4">Lehigh University</HoverVideoDisplay>.</p>
-          <p>I’m an aspiring full-stack developer who has an emphasis on frontend design and development. I enjoy designing <HoverVideoDisplay videoSrc="/videos/gojoo.mp4">good looking</HoverVideoDisplay> experiences and building end-to-end.</p>
+          <p>Hi! I'm a computer science and business student at <HoverVideoDisplay videoSrc="/videos/lehighu.mp4">Lehigh University</HoverVideoDisplay>. I love building useful, cool things and lately, I've been really into <HoverVideoDisplay videoSrc="/videos/lehighu.mp4">reading</HoverVideoDisplay>.</p>
+<div className="flex flex-col gap-y-6">
+            <h2>Experience</h2>
+            <div className="flex flex-col gap-y-3">
+              <div className="flex flex-row gap-x-1.5 items-center justify-between">
+                <div className="flex flex-row gap-x-1.5">
+                  <h3 className="text-[#666666]">CSE007 Grader</h3>
+                  <h3 className="text-[#B2B2B2]">August 2025 - Present</h3>
+                </div>
+              </div>
+              <p>Assisting students with coding concepts during weekly labs and grading assignments and exams in an introductory programming course.</p>
+            </div>
+          </div>
           <div className="flex flex-col gap-y-6">
             <h2>Projects</h2>
             <div className="flex flex-col gap-y-3">
               <div className="flex flex-row gap-x-1.5 items-center justify-between">
                 <div className="flex flex-row gap-x-1.5">
-                  <h3 className="text-[#666666]">Oncourse - Conquor Class Registry</h3>
-                  <h3 className="text-[#B2B2B2]">September 2025</h3>
+                  <h3 className="text-[#666666]">AI-Assisted Visual Automation</h3>
+                  <h3 className="text-[#B2B2B2]">October 2025</h3>
                 </div>
                 <div className="flex flex-row gap-x-1.5">
                   <a href="https://github/rp0201" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-x-1.5 items-center">
@@ -24,20 +35,19 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <p>Automated class registry desktop application that allows users to register for classes ahead of time using Puppeteer (for educational purposes). Users can also plan their courses more effectively using in-house scheduling tools and unlock insights on classes/professors.</p>
+              <p>Integrated YoloV8 + CLIPSeg with Selenium to automate visual tasks on complex web interfaces.</p>
               <ul className="flex gap-x-3">
-                <li>Vite</li>
-                <li>React</li>
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>Puppeteer</li>
-                <li>Electron</li>
+                <li>Python</li>
+                <li>PyTorch</li>
+                <li>YoloV8</li>
+                <li>CLIPSeg</li>
+                <li>Selenium</li>
               </ul>
             </div>
             <div className="flex flex-col gap-y-3">
               <div className="flex flex-row gap-x-1.5 items-center justify-between">
                 <div className="flex flex-row gap-x-1.5">
-                  <h3 className="text-[#666666]">Auxel - Proxy Tester Application</h3>
+                  <h3 className="text-[#666666]">Proxy Tester Application</h3>
                   <h3 className="text-[#B2B2B2]">In progress</h3>
                 </div>
                 <div className="flex flex-row gap-x-1.5">
@@ -47,10 +57,10 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <p>A fast, open-source proxy tester that checks thousands of residential & ISP proxies at once. Includes real-time status, speed metrics, filtering tools, and bulk actions for efficient proxy management.</p>
+              <p>A fast, open-source proxy tester that checks thousands of residential & ISP proxies at once with filtering and management features</p>
               <ul className="flex gap-x-3">
                 <li>CSS</li>
-                <li>Javascript</li>
+                <li>JavaScript</li>
                 <li>React</li>
                 <li>Python</li>
               </ul>
