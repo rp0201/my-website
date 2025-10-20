@@ -16,6 +16,9 @@ export default function Home() {
                   <h3 className="text-[#666666]">CSE007 Grader</h3>
                   <h3 className="text-[#B2B2B2]">August 2025 - Present</h3>
                 </div>
+                <div className="flex flex-row gap-x-1.5">
+                  <p>Bethlehem, PA</p>
+                </div>
               </div>
               <p>Assisting students with coding concepts during weekly labs and grading assignments and exams in an introductory programming course.</p>
             </div>
@@ -47,6 +50,27 @@ export default function Home() {
             <div className="flex flex-col gap-y-3">
               <div className="flex flex-row gap-x-1.5 items-center justify-between">
                 <div className="flex flex-row gap-x-1.5">
+                  <h3 className="text-[#666666]">Shopify Stock Monitor</h3>
+                  <h3 className="text-[#B2B2B2]">October 2025</h3>
+                </div>
+                <div className="flex flex-row gap-x-1.5">
+                  <a href="https://github/rp0201" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-x-1.5 items-center">
+                    Link
+                    <img src="/Frame.svg" width={14} height={14} alt="Auxel Github Repo"/>
+                  </a>
+                </div>
+              </div>
+              <p>A stock monitor that tracks inventory levels of exclusive items in real time, sending alerts when exclusive products are restocked.</p>
+              <ul className="flex gap-x-3">
+                <li>Python</li>
+                <li>httpx</li>
+                <li>SQLAlchemy</li>
+                <li>Redis</li>
+              </ul>
+            </div>
+            <div className="flex flex-col gap-y-3">
+              <div className="flex flex-row gap-x-1.5 items-center justify-between">
+                <div className="flex flex-row gap-x-1.5">
                   <h3 className="text-[#666666]">Proxy Tester Application</h3>
                   <h3 className="text-[#B2B2B2]">In progress</h3>
                 </div>
@@ -57,7 +81,7 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <p>A fast, open-source proxy tester that checks thousands of residential & ISP proxies at once with filtering and management features</p>
+              <p>A fast, open-source proxy tester that checks thousands of residential & ISP proxies at once with filtering and management features.</p>
               <ul className="flex gap-x-3">
                 <li>CSS</li>
                 <li>JavaScript</li>
