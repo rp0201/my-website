@@ -8,11 +8,11 @@ export default function ProjectSection() {
           <div className="flex flex-col gap-y-6">
             <h2>Projects</h2>
             <ProjectCard
-                title="AI Visual Web Automation"
-                date="October 2028"
-                description="Developed a program that utilizes YOLOv8 and CLIPSeg to handle complex visual web interface prompts."
+                title="Lorem"
+                date="..."
+                description="Lorem ipsum."
                 link="https://github.com/"
-                stack={["Python", "YOLOv8", "CLIPSeg", "OpenCV"]}
+                stack={["X", "Y", "Z", "C"]}
             />
             <ProjectCard
                 title="Lorem"
