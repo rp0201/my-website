@@ -4,7 +4,7 @@ import ContactSection from '@/components/sections/ContactSection';
 export default function Home() {
   return (
     <div>
-      <div className="flex justify-center py-[90px]">
+      <div className="flex justify-center py-[90px] px-4">
         <div className="flex flex-col gap-y-6 max-w-[560px] w-full">
           <div className="flex flex-row justify-between">
               <h1>Rithi Hem-Sokhan</h1>

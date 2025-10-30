@@ -8,25 +8,11 @@ export default function ProjectSection() {
           <div className="flex flex-col gap-y-6">
             <h2>Projects</h2>
             <ProjectCard
-                title="Lorem"
-                date="..."
-                description="Lorem ipsum."
+                title="Shopify Restock Monitor"
+                date="October 2025"
+                description="A Python-based automated stock monitoring tool for select Shopify stores. Continuously tracks product inventory levels and detects stock changes in real-time."
                 link="https://github.com/"
-                stack={["X", "Y", "Z", "C"]}
-            />
-            <ProjectCard
-                title="Lorem"
-                date="..."
-                description="Lorem ipsum."
-                link="https://github.com/"
-                stack={["X", "Y", "Z", "C"]}
-            />
-            <ProjectCard
-                title="Lorem"
-                date="..."
-                description="Lorem ipsum."
-                link="https://github.com/"
-                stack={["X", "Y", "Z", "C"]}
+                stack={["Python"]}
             />
           </div>  
     )

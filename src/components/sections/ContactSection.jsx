@@ -10,16 +10,12 @@ export default function ContactSection() {
                     <li>Email</li>
                     <img src="/Frame.svg" width={14} height={14} alt="Email address"/>
                 </a>
-                <a href="https://www.linkedin.com/in/rithihs/" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-x-1.5">
+                <a href="https://www.linkedin.com/in/rsokhan/" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-x-1.5">
                     <li>LinkedIn</li>
                     <img src="/Frame.svg" width={14} height={14} alt="LinkedIn"/>
                 </a>
                 <a href="https://github.com/rp0201" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-x-1.5">
                     <li>Github</li>
-                    <img src="/Frame.svg" width={14} height={14} alt="LinkedIn"/>
-                </a>
-                <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="flex flex-row gap-x-1.5">
-                    <li>Resume</li>
                     <img src="/Frame.svg" width={14} height={14} alt="LinkedIn"/>
                 </a>
                 </ul>
