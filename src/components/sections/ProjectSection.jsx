@@ -11,7 +11,7 @@ export default function ProjectSection() {
                 title="Shopify Restock Monitor"
                 date="October 2025"
                 description="A Python-based automated stock monitoring tool for select Shopify stores. Continuously tracks product inventory levels and detects stock changes in real-time."
-                link="https://github.com/"
+                link="https://github.com/rp0201/shopify-monitor"
                 stack={["Python"]}
             />
           </div>  
